@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        "ssm": "320px"
+      },
       colors: {
         "green": "#39DB4A",
         "black": "#272727",

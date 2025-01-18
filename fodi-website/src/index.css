@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-    .nav-bar {
-        @apply absolute w-[80.66px] h-[30px] left-[586px] top-[65px] font-normal font-poppins text-[20px] leading-[30px];
-      }
+    .g-button {
+      @apply btn bg-green rounded-full text-white flex items-center gap-2 px-6
+    }
 }
 
